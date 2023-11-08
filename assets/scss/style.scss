@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
+
+$background-color: #ffffff;
+$NCfont: #7c7c7c;
+$Ctitle: #555555;
+$NCbuttonFont: #ffffff;
+$NCbuttonBackground: #01aa9d;
+$NCsvg: #dedfe7;
+$Csvg: black;
+$NCanim: #e27474;
+$Canim: green;
+
+$Cfont: black;
+
+// $NCbuttonFont :#ffffff;
+$CbuttonBackground: #018076;
+// $NCsvg :#dedfe7;
+// $NCanim : #e27474;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  width: 90%;
+  margin: 1rem 2rem 2rem 1rem;
+
+  .sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+  }
+
+  .header {
+    // height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+
+    .nav {
+      display: none;
+    }
+
+    .header-logo {
+      margin-left: -1rem;
+
+      .icon {
+        max-width: 8rem;
+        max-height: 8rem;
+      }
+
+      a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .club-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: $NCbuttonBackground;
+    }
+
+    .club-nameC {
+      color: $CbuttonBackground;
+    }
+  }
+
+  #mobile-nav {
+    background-color: $CbuttonBackground;
+    margin: Opx auto;
+    display: none;
+
+    .nav {
+      width: 100%;
+      padding: 20px 0px;
+
+      .ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 5px;
+
+        li {
+          width: 100%;
+          padding: 10px;
+
+          a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            text-align: center;
+            &:hover {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #mobile-nav.active {
+    display: block;
+  }
+
+  .mobile-nav-btn {
+    cursor: pointer;
+  }
+
+  .home {
+    .section {
+      margin-top: 3rem;
+
+      p.bullet {
+        margin-top: 0.7rem;
+        margin-left: 1rem;
+        color: $NCfont;
+        text-align: justify;
+        font-size: 0.9rem;
+
+        a {
+          color: $NCfont;
+          text-decoration: none;
+          outline: none;
+        }
+
+        .Clink {
+          text-decoration: underline;
+        }
+      }
+
+      p.Cbullet {
+        color: $Cfont;
+
+        a {
+          color: $Cfont;
+        }
+      }
+
+      .imgdeco {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+
+        img {
+          max-width: 7rem;
+        }
+      }
+      .ul2 {
+        margin-left: 2rem;
+        font-size: 0.9rem;
+        color: $NCfont;
+      }
+
+      .Cul2 {
+        color: $Cfont;
+      }
+    }
+
+    .h1 {
+      font-size: 40px;
+      color: $Ctitle;
+      font-weight: 900;
+      margin-bottom: 0.7rem;
+    }
+
+    .h2 {
+      font-size: 20px;
+      color: $Ctitle;
+      font-weight: 900;
+      margin-top: 2rem;
+    }
+
+    .h3 {
+      margin-top: 2rem;
+      font-weight: 900;
+      color: $Ctitle;
+    }
+
+    .stats {
+      img {
+        // max-width: 30rem;
+        width: 100%;
+        margin-top: 1rem;
+        border: 1px solid #cccccc;
+      }
+      .disclosure {
+        #toggleButton {
+          background: $CbuttonBackground;
+          color: $NCbuttonFont;
+          padding: 15px;
+          border: 0;
+          border-radius: 5px;
+          font-weight: 500;
+          font-size: 1rem;
+          margin-left: 1rem;
+        }
+
+        #content {
+          display: none;
+          margin-top: 1rem;
+          padding-left: 2rem;
+          font-size: 0.9rem;
+
+          ul {
+            margin-left: 3rem;
+            margin-top: 0.5rem;
+          }
+        }
+      }
+    }
+
+    form {
+      .form-group {
+        margin-top: 2rem;
+
+        .label {
+          color: $Cfont;
+        }
+
+        input {
+          background: #ffffff;
+          padding: 10px 15px;
+          width: 230px;
+          border: 1px solid #cccccc;
+          border-radius: 4px;
+          margin-top: 0.75rem;
+        }
+
+        button {
+          background: $NCbuttonBackground;
+          color: $NCbuttonFont;
+          padding: 15px;
+          border: 0;
+          border-radius: 5px;
+          font-weight: 500;
+          font-size: 1rem;
+          margin-top: 0.75rem;
+        }
+      }
+
+      .Cform-group {
+        button {
+          background: $CbuttonBackground;
+        }
+      }
+    }
+
+    .social {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+
+      .ul {
+        list-style-type: none;
+        display: flex;
+        column-gap: 12px;
+        justify-content: left;
+
+        li {
+          a {
+            svg {
+              width: 30px;
+              fill: $NCsvg;
+            }
+          }
+        }
+      }
+    }
+
+    .Csocial {
+      .ul {
+        li {
+          a {
+            svg {
+              fill: $Csvg;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+
+    .fly {
+      animation: 2s anim-lineUp ease-out infinite;
+      color: $NCanim;
+    }
+
+    .Cfly {
+      animation: 0s;
+      color: $Canim;
+    }
+
+    .copyright {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 2rem;
+      color: $NCfont;
+
+      img {
+        max-width: 8rem;
+        padding-left: 0.5rem;
+        vertical-align: center;
+      }
+    }
+
+    .Ccopyright{
+      color: $Cfont; 
+    }
+
+    @keyframes anim-lineUp {
+      0% {
+        opacity: 0;
+        transform: translateY(80%);
+      }
+      20% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    .header {
+      .nav {
+        display: block;
+
+        .ul {
+          list-style-type: none;
+          display: flex;
+          align-items: center;
+          column-gap: 18px;
+
+          li {
+            a {
+              text-decoration: none;
+              color: $Cfont;
+              font-weight: 700;
+            }
+
+            &:last-of-type {
+              a {
+                background: $CbuttonBackground;
+                color: $NCbuttonFont;
+                padding: 15px;
+                border: 1px solid #cccccc;
+                border-radius: 5px;
+                font-weight: 500;
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .home {
+      .section {
+        .stats {
+          img {
+            max-width: 30rem;
+          }
+        }
+      }
+    }
+
+    .mobile-nav-btn {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
