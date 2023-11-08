@@ -102,16 +102,19 @@ body .home .section p.bullet {
 body .home .section p.bullet a {
   color: #7c7c7c;
   text-decoration: none;
-  outline: none;
 }
-body .home .section p.bullet .Clink {
-  text-decoration: underline;
+body .home .section p.bullet a:focus {
+  outline: none;
 }
 body .home .section p.Cbullet {
   color: black;
 }
 body .home .section p.Cbullet a {
   color: black;
+  text-decoration: underline;
+}
+body .home .section p.Cbullet a:focus {
+  outline: 2px solid black;
 }
 body .home .section .imgdeco {
   margin-top: 1rem;

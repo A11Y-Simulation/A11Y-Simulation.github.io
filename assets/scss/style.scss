@@ -136,11 +136,11 @@ body {
         a {
           color: $NCfont;
           text-decoration: none;
-          outline: none;
-        }
 
-        .Clink {
-          text-decoration: underline;
+
+        }
+        a:focus{
+          outline: none;
         }
       }
 
@@ -149,6 +149,11 @@ body {
 
         a {
           color: $Cfont;
+          text-decoration: underline;
+        }
+
+        a:focus{
+          outline: 2px solid black;
         }
       }
 
