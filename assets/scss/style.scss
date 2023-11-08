@@ -41,7 +41,9 @@ body {
     width: 1px !important;
     white-space: nowrap !important;
   }
-
+  .skiplink {
+    display: none;
+  }
   .header {
     // height: 50px;
     display: flex;
@@ -359,16 +361,18 @@ body {
     padding-right: 2rem;
 
     .skiplink {
+      display: block;
+
       .nav__tier--1 {
         list-style: none;
       }
-    
+
       a:focus {
         background-color: black;
         color: white;
         outline: 3px solid black;
       }
-    
+
       .hide-text {
         a {
           position: absolute;
@@ -448,5 +452,3 @@ body {
     padding-right: 4rem;
   }
 }
-
-

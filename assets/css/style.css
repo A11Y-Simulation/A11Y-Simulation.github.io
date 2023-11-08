@@ -24,6 +24,9 @@ body .sr-only {
   width: 1px !important;
   white-space: nowrap !important;
 }
+body .skiplink {
+  display: none;
+}
 body .header {
   display: flex;
   justify-content: space-between;
@@ -271,6 +274,9 @@ body .footer .Ccopyright {
   body {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  body .skiplink {
+    display: block;
   }
   body .skiplink .nav__tier--1 {
     list-style: none;
