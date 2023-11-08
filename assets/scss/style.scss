@@ -136,10 +136,8 @@ body {
         a {
           color: $NCfont;
           text-decoration: none;
-
-
         }
-        a:focus{
+        a:focus {
           outline: none;
         }
       }
@@ -152,7 +150,7 @@ body {
           text-decoration: underline;
         }
 
-        a:focus{
+        a:focus {
           outline: 2px solid black;
         }
       }
@@ -330,8 +328,8 @@ body {
       }
     }
 
-    .Ccopyright{
-      color: $Cfont; 
+    .Ccopyright {
+      color: $Cfont;
     }
 
     @keyframes anim-lineUp {
