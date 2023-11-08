@@ -413,3 +413,36 @@ body {
     padding-right: 4rem;
   }
 }
+.skiplink{
+.nav__tier--1 {
+  list-style: none;
+}
+
+a:focus {
+		background-color: black;
+		color: white;
+		outline: 3px solid black;
+}
+
+.hide-text { 
+  a {
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    width: 1px; 
+    margin: -1px; 
+    padding: 0; 
+    border: 0;    
+    &:focus { 
+      position: relative;
+      overflow: visible;
+      clip: auto;
+      height: auto;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    } 
+  }
+}}

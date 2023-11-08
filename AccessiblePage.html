@@ -16,8 +16,16 @@
 <!-- ***********BODY*********** -->
 
 <body>
+    <div class="skiplink">
+        <div class="nav nav--skip-links">
+            <ul class="nav__tier nav__tier--1">
+              <li class="nav__item hide-text"><a class="nav__item" href="#main">Aller au contenu</a></li>   
+            </ul>
+          </div>
+     </div>
     <!-- ***********HEADER********** -->
     <header class="header" role="banner">
+
         <div class="header-logo">
             <a href="index.html"><img class="icon" src="./assets/img/téléchargement.jpeg"
                     alt="Accueil Crédit agricole payement services">
@@ -33,8 +41,8 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <div id="mobile-nav-btn" class="mobile-nav-btn" role="button">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="">
+        <div id="mobile-nav-btn" class="mobile-nav-btn" role="button" aria-expanded="false" >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="Menu">
         </div>
     </header>
 
@@ -49,7 +57,7 @@
         </nav>
     </div>
 
-    <main class="main" role="main">
+    <main class="main" role="main" id="main">
         <div class="home">
             <div class="section">
                 <h1 class="h1">Trouvez les erreurs !</h1>
