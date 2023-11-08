@@ -1,0 +1,22 @@
+@mixin for-mobile-tablettes {
+    @media (max-width: 48em) {
+        @content;
+    }
+}
+
+@mixin for-desktops {
+    @media (min-width: 48em) {
+        @content;
+    }
+}
+
+@mixin for-tablettes {
+    @media (min-width: 36em) {
+        @content;
+    }
+}
+
+@mixin for-max-desktops {
+    @media (min-width: 60em) {
+        @content;
+    }}
