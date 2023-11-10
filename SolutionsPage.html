@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- **********CSS*********** -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Le solutions - Crédit agricole service paiement atelier d'accessibilité numérique</title>
+</head>
+
+
+<!-- ***********BODY*********** -->
+
+<body>
+    <div class="skiplink">
+        <div class="nav nav--skip-links">
+            <ul class="nav__tier nav__tier--1">
+                <li class="nav__item hide-text"><a class="nav__item" href="#main">Aller au contenu</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ***********HEADER********** -->
+    <header class="header" role="banner">
+
+        <div class="header-logo">
+            <a href="index.html"><img class="icon" src="./assets/img/téléchargement.jpeg"
+                    alt="Accueil Crédit agricole payement services">
+                <div class="club-name club-nameC">Atelier d'accessibilité numérique</div>
+            </a>
+
+        </div>
+        <nav class="nav" role="navigation">
+            <ul class="ul">
+                <li><a href="https://accessibilite.numerique.gouv.fr/obligations/">Réglementation</a></li>
+                <li><a href="./SolutionsPage.html">Les solutions</a></li>
+                <li><a href="./AccessiblePage.html">Page corrigée</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-nav-btn" class="mobile-nav-btn" role="button" aria-expanded="false" tabindex="0">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="Menu">
+        </div>
+    </header>
+
+    <div id="mobile-nav">
+        <nav class="nav" role="navigation">
+            <ul class="ul Cul">
+                <li><a href="https://accessibilite.numerique.gouv.fr/obligations/">Réglementation</a></li>
+                <li><a href="./SolutionsPage.html">Les solutions</a></li>
+                <li><a href="./AccessiblePage.html">Page corrigée</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="main" role="main" id="main">
+        <div class="home">
+            <div class="section">
+                <h1 class="h1">Les solutions</h1>
+                <p>Des améliorations sont nécessaires pour garantir une expérience inclusive et accessible à tous les
+                    utilisateurs. Il est essentiel de répondre aux normes les plus élevées en matière d'accessibilité
+                    afin de créer un environnement numérique équitable et accessible.</p>
+                <h2 class="h2">Les bonnes pratiques</h2>
+                <p class="bullet Cbullet">En créant des interfaces numériques inclusives, les concepteurs et
+                    développeurs contribuent à assurer l'égalité d'accès aux informations et aux services en ligne. La
+                    mise en oeuvre des bonnes pratiques d'accessibilité numérique permet d'éviter un certain nombre
+                    d'erreur. </p>
+
+                <div class="stats Cstats">
+                    <div class="disclosure">
+                        <button id="toggleButton" aria-expanded="false">Liste des bonnes pratiques</button>
+                        <div id="content">
+                            <ul>
+                                <li>Donner un titre aux pages</li>
+                                <li>Donner des titres aux rubriques</li>
+                                <li>Respecter la sémantique HTML / Validation HTML</li>
+                                <li>Indiquer la langue principale et changement de langue</li>
+                                <li>Structurer les tableaux de données</li>
+                                <li>Définir des équivalents textuels</li>
+                                <li>Cadres (iframe)</li>
+                                <li>Rendre accessible les pistes audio, vidéo et les animations</li>
+                                <li>Captcha</li>
+                                <li>Contrastes</li>
+                                <li>Couleurs ou information sensorielle</li>
+                                <li>2 systèmes de navigation</li>
+                                <li>Lien(s) d'évitement</li>
+                                <li>Structure sémantique globale</li>
+                                <li>Libellé des liens et boutons</li>
+                                <li>Libellé des liens</li>
+                                <li>Contrôle de l'utilisateur</li>
+                                <li>Navigation clavier</li>
+                                <li>Web adaptatif et tailles relatives</li>
+                                <li>Formulaires</li>
+                                <li>Tactile et interaction</li>
+                                <li>Aides techniques</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="h2">Les erreurs présentes sur la page non accessible</h2>
+                <div class="section2">
+
+                    <div class="containerAccordion">
+                        <div id="accordionGroup" role="presentation" class="Accordion">
+                            <!-- Accordeon 1 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="true" class="Accordion-trigger" aria-controls="sect1"
+                                    id="accordion1id" type="button">
+                                    <span class="Accordion-title">Le titre de la page n’est pas pertinent</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect1" role="region" aria-labelledby="accordion1id" class="Accordion-panel">
+                                    <div>
+                                        <p class="bullet Cbullet">
+                                            Le titre affiché dans l'onglet du navigateur revêt une importance cruciale
+                                            sur un site web, servant de point de référence essentiel. Pour les
+                                            utilisateurs de lecteurs d'écran, tels que les personnes aveugles ou ayant
+                                            une grande déficience visuelle, il constitue le premier élément restitué
+                                            lors du chargement de la page et peut être rappelé à tout moment grâce à un
+                                            raccourci clavier. Cette fonctionnalité facilite la navigation rapide dans
+                                            la liste des onglets ouverts, notamment pour les personnes en situation de
+                                            handicap moteur.</p>
+                                        <p class="bullet Cbullet">Il est donc impératif d'adopter des titres de pages
+                                            pertinents, concis et souvent uniques sur le site.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 114241.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 2 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect2"
+                                    id="accordion2id" type="button">
+                                    <span class="Accordion-title">Présence d’un intitulé de lien peu explicite</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect2" role="region" aria-labelledby="accordion2id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">
+                                            Lorsque les intitulés des liens manquent de clarté, cela peut entraîner des
+                                            difficultés pour les personnes aveugles ou ayant une déficience visuelle
+                                            limitée qui ne peuvent pas voir l'intégralité de la page. D'autres
+                                            utilisateurs, tels que ceux ayant des handicaps intellectuels, peuvent
+                                            également être affectés. Il est crucial de garantir que tous les liens
+                                            disposent d'un intitulé explicite, pouvant être soit le contenu textuel du
+                                            lien, soit l'alternative de l'image (par exemple, l'attribut
+                                            <code>alt</code> pour les images-liens).</p>
+                                        <p class="bullet Cbullet"></p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 132600.png" alt="">
+                                        </div>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 163514.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 3 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect3"
+                                    id="accordion3id" type="button">
+                                    <span class="Accordion-title">Présence de titres de hiérarchie simulée</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect3" role="region" aria-labelledby="accordion3id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">L'importance des structures de titre appropriées
+                                            découle de diverses raisons : </p>
+                                        <ul class="ul2 Cul2 Sul">
+                                            <li>Les titres servent de table des matières pour la page, offrant une vue
+                                                d'ensemble de l'organisation du contenu.</li>
+                                            <li>Les technologies d'assistance permettent la navigation à travers une
+                                                page exclusivement par les titres, facilitant le déplacement d'un niveau
+                                                de titre à un autre.</li>
+                                        </ul>
+
+                                        <div class="capture">
+                                            <img src="./assets/img/ScreenShot Tool -20231110134406.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 4 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect4"
+                                    id="accordion4id" type="button">
+                                    <span class="Accordion-title">Contrastes des couleurs des textes</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect4" role="region" aria-labelledby="accordion4id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Dans la conception d’un site internet, le choix des couleurs, et plus globalement d’une charte graphique, est une étape primordiale. Ce choix est d’autant plus important que tout le monde ne distingue pas les couleurs de la même façon.</p>
+                                        <p class="bullet Cbullet">Afin d’améliorer la lisibilité des contenus, les contrastes doivent être suffisants entre la couleur du texte et la couleur du fond.</p>
+                                        <p class="bullet Cbullet">Certains éléments textuels ont un contraste insuffisant avec leur arrière-plan (ratio de contraste strictement inférieur à 4.5:1 pour un texte de taille "normale" et strictement inférieur à 3:1 pour les "grands textes")</p>
+                                        <p class="bullet Cbullet">Exemples :</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 150555.png" alt="Exemple de texte avec un ratio de contraste de 2.9">
+                                        </div>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 150644.png" alt="Exemple de texte avec un ratio de contraste de 4.17">
+                                        </div>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 153605.png" alt="Exemple de texte avec un ratio de contraste de 2.9">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 5 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect5"
+                                    id="accordion5id" type="button">
+                                    <span class="Accordion-title">Contrastes des couleurs des composants graphiques</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect5" role="region" aria-labelledby="accordion5id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Certaines personnes perçoivent peu ou mal les couleurs ou les associations de couleurs, il est donc nécessaire de fournir des composants d’interface avec un rapport de contraste suffisant de 3:1 par rapport à leur environnement et leurs différents états.</p>
+                                        <p class="bullet Cbullet">Exemple :</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 151804.png" alt="Exemple de composants d'interface avec un ratio de contraste de 1.3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 6 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect6"
+                                    id="accordion6id" type="button">
+                                    <span class="Accordion-title">Liens dans des environnements de texte</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect6" role="region" aria-labelledby="accordion6id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Lorsque des liens sont insérés dans un bloc de texte et qu’ils ne sont signalés que par la couleur, les personnes déficientes visuelles risquent de ne pas les identifier si la couleur des liens n’est pas suffisamment contrastée par rapport à la couleur du texte.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 152249.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 7 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect7"
+                                    id="accordion7id" type="button">
+                                    <span class="Accordion-title">Images décoratives</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect7" role="region" aria-labelledby="accordion7id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Une image décorative est une illustration employée exclusivement à des fins esthétiques, sans véhiculer d'informations essentielles pour la compréhension du contenu ou du contexte d'une page Web. Elles ne nécessitent pas de descriptions textuelles alternatives, car elles n'apportent pas d'informations pertinentes aux utilisateurs incapables de les visualiser.</p>
+                                        <p class="bullet Cbullet">Un attribut <code>alt</code> doit être présent mais sans intitulé.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 152843.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 8 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect8"
+                                    id="accordion8id" type="button">
+                                    <span class="Accordion-title">Indications données par la couleur uniquement</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect8" role="region" aria-labelledby="accordion8id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Si des données cruciales sont communiquées à travers la couleur, elles doivent également être présentées de manière alternative pour les utilisateurs qui ne peuvent pas interpréter les informations colorées.</p>
+                                        <p class="bullet Cbullet">En l'absence d'une alternative à l'information visuelle apportée par la couleur, certaines personnes, telles que les individus aveugles ou ayant une perception limitée des couleurs, subissent une perte d'informations significative.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 153239.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 9 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect9"
+                                    id="accordion9id" type="button">
+                                    <span class="Accordion-title">Images porteuses d’information complexe</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect9" role="region" aria-labelledby="accordion9id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Une description détaillée d'une image informativement significative est un texte exhaustif qui détaille avec précision l'image concernée. Cette description doit inclure toutes les informations essentielles transmises par l'image, permettant ainsi aux utilisateurs qui ne peuvent pas la visualiser (tels que les utilisateurs de lecteurs d'écran) de saisir pleinement les informations qu'elle véhicule.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 153239.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 10 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect10"
+                                    id="accordion10id" type="button">
+                                    <span class="Accordion-title">Formulaire : Aide à la saisie</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect10" role="region" aria-labelledby="accordion10id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Lorsqu'un utilisateur remplit un formulaire sur une page Web, il est essentiel de lui indiquer le format correct ou les contraintes liées à un champ particulier. Par exemple, si un champ est destiné à un numéro de téléphone, l'indication de format pourrait spécifier si l'entrée doit suivre le format national ou international. De même, pour une adresse e-mail, le format correct peut être précisé.</p>
+                                        <p class="bullet Cbullet">L'indication de format est souvent réalisée à l'aide de libellés explicatifs, d'exemples de format, ou d'instructions claires associées à chaque champ du formulaire. Ces informations aident tous les utilisateurs, mais elles sont particulièrement cruciales pour ceux qui utilisent des technologies d'assistance pour naviguer sur le Web, car elles facilitent la compréhension et la saisie correcte des données.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 154015.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 11 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect11"
+                                    id="accordion11id" type="button">
+                                    <span class="Accordion-title">Contenus en mouvement ou clignotants</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect11" role="region" aria-labelledby="accordion11id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Les contenus clignotants peuvent poser des problèmes d'accessibilité pour plusieurs raisons, en particulier pour les personnes atteintes d'épilepsie, de troubles visuels ou de sensibilité au mouvement. Voici quelques raisons pour lesquelles les contenus clignotants peuvent constituer un obstacle à l'accessibilité :</p>
+                                        <ul class="ul2 Cul2 Sul">
+                                            <li>Problèmes liés à l'épilepsie : Certains individus sont sensibles aux stimuli visuels clignotants et peuvent déclencher des crises d'épilepsie photosensible. Les contenus clignotants peuvent représenter un danger potentiel pour ces personnes.</li>
+                                            <li>Problèmes visuels : Les personnes atteintes de troubles visuels, y compris celles qui utilisent des lecteurs d'écran, peuvent avoir du mal à interpréter correctement les informations lorsque celles-ci clignotent rapidement. Cela peut rendre la lecture et la compréhension du contenu difficiles voire impossibles.</li>
+                                            <li>Problèmes de concentration : Le clignotement constant peut distraire et rendre difficile la concentration sur le reste du contenu de la page, même pour les personnes sans problèmes de santé spécifiques.</li>
+                                        </ul>
+                                        <p class="bullet Cbullet"></p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 154549.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 12 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect12"
+                                    id="accordion12id" type="button">
+                                    <span class="Accordion-title">Lien d'évitement</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect12" role="region" aria-labelledby="accordion12id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Le lien d'évitement, tel que "Aller au contenu", est un élément clé en matière d'accessibilité sur les sites web. Il permet aux utilisateurs de lecteurs d'écran de sauter rapidement aux sections importantes, améliorant ainsi l'efficacité de la navigation.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 160920.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 13 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect13"
+                                    id="accordion13id" type="button">
+                                    <span class="Accordion-title">Dispositifs d’accès rapide ou d’évitement des grandes zones de la page</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect13" role="region" aria-labelledby="accordion13id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">HTML offre la possibilité de définir des balises de repère sur une page, désignant ainsi des zones significatives. Ces repères facilitent l'orientation des utilisateurs de lecteurs d'écran en répertoriant tous les points de repère sur une page, permettant une navigation aisée d'un repère à un autre à l'aide de raccourcis spécifiques. Par ailleurs, d'autres utilisateurs ont la possibilité d'intégrer des extensions de navigateur pour accéder directement aux repères en utilisant des raccourcis clavier.</p>
+                                        <ul class="ul2 Cul2 Sul">
+                                            <li><code>header role="header"</code> (unique dans le contexte de l’élément <code>body</code>)</li>
+                                            <li><code>footer role="contentinfo"</code> (unique dans l’élément <code>body</code>)</li>
+                                            <li><code>main role="main"</code> (unique dans la page )</li>
+                                            <li><code>nav role="navigation"</code> (nécessite un label unique si plusieurs sur une page)</li>
+                                            <li><code>form role="search"</code> pour le moteur de recherche du site</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 14 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect14"
+                                    id="accordion14id" type="button">
+                                    <span class="Accordion-title">Structuration des listes</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect14" role="region" aria-labelledby="accordion14id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">La structuration du contenu en listes offre plusieurs avantages en termes d'accessibilité, en particulier pour les utilisateurs de lecteurs d'écran. En organisant l'information sous forme de listes, on facilite la navigation et la compréhension du contenu. Les lecteurs d'écran sont équipés de raccourcis spécifiques permettant aux utilisateurs de naviguer rapidement entre les éléments de la liste.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 161316.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 15 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect15"
+                                    id="accordion15id" type="button">
+                                    <span class="Accordion-title"> Indication visuelle de la prise de focus</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect15" role="region" aria-labelledby="accordion15id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Les utilisateurs qui n'ont pas la possibilité d'utiliser une souris doivent être en mesure de se repérer dans une page lorsqu'ils naviguent à l'aide de la touche de tabulation. Par défaut, les navigateurs fournissent une indication visuelle de l'élément en cours de mise au point, généralement sous la forme d'une bordure. Cette bordure peut être personnalisée à l'aide de la propriété CSS <code>outline</code>.</p>
+                                        <p class="bullet Cbullet">Supprimer cette indication visuelle de mise au point, par exemple en utilisant des règles CSS telles que <code>outline:none</code>, rend la navigation dans le contenu très difficile, voire dans la plupart des cas, impossible pour les personnes incapables d'utiliser une souris. Il est crucial de maintenir cette indication visuelle pour garantir une expérience de navigation accessible à tous les utilisateurs, indépendamment de leur mode d'interaction avec la page.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 152249.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 16 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect16"
+                                    id="accordion16id" type="button">
+                                    <span class="Accordion-title">Ordre de tabulation</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect16" role="region" aria-labelledby="accordion16id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">La navigation au clavier peut devenir particulièrement difficile pour les personnes aveugles ou ayant des handicaps moteurs si l'ordre de tabulation n'est pas uniforme. Cet ordre dépend de la disposition des éléments dans le code HTML et ne suit pas nécessairement la séquence de lecture de la page ou de l'écran.</p>
+                                        <p class="bullet Cbullet">Cependant, il est essentiel que cet ordre de tabulation demeure cohérent en fonction de la nature des contenus et des fonctionnalités afin de garantir une expérience de navigation fluide et prévisible.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 162207.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 17 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect17"
+                                    id="accordion17id" type="button">
+                                    <span class="Accordion-title">Formulaire : Indication de la nature des saisies</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect17" role="region" aria-labelledby="accordion17id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">L'autocomplétion améliore l'accessibilité numérique en réduisant la saisie manuelle, minimisant les erreurs, facilitant l'entrée d'informations, et offrant une expérience personnalisée. Elle est particulièrement bénéfique pour les utilisateurs ayant des difficultés motrices, cognitives, ou dépendant de lecteurs d'écran.</p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 154015.png" alt="">
+                                        </div>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 162653.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 18 -->
+                            <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect18"
+                                    id="accordion18id" type="button">
+                                    <span class="Accordion-title">Contrôle des fonctionnalités au clavier</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect18" role="region" aria-labelledby="accordion18id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">Toutes les fonctionnalités créées avec JavaScript doivent être accessibles au clavier, un mode d'utilisation essentiel pour de nombreuses personnes en situation de handicap, telles que les personnes aveugles ou ayant des limitations motrices. Lorsque l'élément déclencheur d'une fonctionnalité est nativement interactif ou fait partie d'un composant suivant un modèle de conception ARIA, la fonctionnalité doit être pleinement utilisable au clavier.</p>
+                                        <p class="bullet Cbullet"></p>
+                                        <div class="capture">
+                                            <img src="./assets/img/Capture d'écran 2023-11-10 163101.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordeon 19 -->
+                            <!-- <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect19"
+                                    id="accordion19id" type="button">
+                                    <span class="Accordion-title">Intitulés de liens explicites</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect19" role="region" aria-labelledby="accordion19id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet">#</p>
+                                        <p class="bullet Cbullet"></p>
+                                        <div class="capture">
+                                            <img src="#" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- Accordeon 20 -->
+                            <!-- <div class="Accordion-item">
+                                <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect20"
+                                    id="accordion20id" type="button">
+                                    <span class="Accordion-title">Titre 20</span>
+                                    <span class="Accordion-icon"></span>
+                                </button>
+                                <div id="sect20" role="region" aria-labelledby="accordion20id" class="Accordion-panel"
+                                    hidden>
+                                    <div>
+                                        <p class="bullet Cbullet"></p>
+                                        <p class="bullet Cbullet"></p>
+                                        <div class="capture">
+                                            <img src="#" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <p class="fly Cfly">
+            Cette page est accessible aux personnes en situation de handicap !</p><br>
+
+        <div>
+            <p class="copyright Ccopyright">© Copyright 2023 Moufid EL AROUI <br><img
+                    src="./assets/img/téléchargement.png" alt="numerikea"></p>
+        </div>
+    </footer>
+
+    <!-- **********JAVASCRIPT*********** -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
