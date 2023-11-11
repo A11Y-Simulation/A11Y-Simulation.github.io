@@ -87,6 +87,9 @@ Array.from(document.querySelectorAll('.Accordion')).forEach(function (accordion)
         if (!allowToggle) {
           active.removeAttribute('aria-disabled');
         }
+
+        // Ajoute la logique de défilement ici
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
 
       if (!isExpanded) {
@@ -99,11 +102,17 @@ Array.from(document.querySelectorAll('.Accordion')).forEach(function (accordion)
         if (!allowToggle) {
           target.setAttribute('aria-disabled', 'true');
         }
+
+        // Ajoute la logique de défilement ici
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       } else if (allowToggle && isExpanded) {
         // Définit l'état étendu sur l'élément de déclenchement
         target.setAttribute('aria-expanded', 'false');
         // Masque les sections de l'accordéon, en utilisant aria-controls pour spécifier la section désirée
         document.getElementById(target.getAttribute('aria-controls')).setAttribute('hidden', '');
+
+        // Ajoute la logique de défilement ici
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
 
       event.preventDefault();
@@ -164,3 +173,4 @@ Array.from(document.querySelectorAll('.Accordion')).forEach(function (accordion)
     }
   }
 });
+
