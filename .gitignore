@@ -1,0 +1,33 @@
+# Ignore les fichiers temporaires
+*.swp
+*.swo
+*.swn
+*.swm
+*.bak
+*~
+
+# Ignore les fichiers de configuration spécifiques à l'environnement
+.env
+
+# Ignore les fichiers de dépendances
+node_modules/
+bower_components/
+
+# Ignore les fichiers générés lors de la construction du projet
+dist/
+build/
+
+# Ignore les fichiers de cache et de sauvegarde
+.cache/
+.sass-cache/
+
+# Ignore les fichiers de logs
+logs/
+*.log
+
+# Ignore les fichiers de configuration
+*.config
+
+# Ignore les fichiers d'éditeur spécifiques
+.vscode/
+.idea/
