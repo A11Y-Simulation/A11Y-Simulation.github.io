@@ -179,7 +179,7 @@ body {
         color: $Cfont;
       }
 
-      .Sul{
+      .Sul {
         padding-top: 0.5rem;
         padding-left: 3rem;
       }
@@ -330,7 +330,9 @@ body {
       margin-left: auto;
       margin-top: 2rem;
       color: $NCfont;
+    }
 
+    .numerikea {
       img {
         max-width: 8rem;
         padding-left: 0.5rem;
@@ -546,7 +548,7 @@ body {
 
 /* Style pour les balises <code> */
 code {
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 14px;
   background-color: #f4f4f4;
   padding: 2px 4px;
@@ -555,4 +557,3 @@ code {
   color: #333;
   display: inline-block;
 }
-
