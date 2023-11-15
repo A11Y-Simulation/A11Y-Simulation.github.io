@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 170 110" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root {
+            --v1: #93a9f2;
+            --v2: #CA3A7D;
+            --v3: #EC6B2C;
+            --v4: #EAAC3C;
+        }
+
+        text {
+            font-family: sans-serif;
+            font-size: 7px;
+        }
+
+        .titre {
+            text-anchor: end;
+            text-align: end;
+            transform: translate(169px, 6px);
+            fill: #0F2265;
+        }
+
+        .camenbert text {
+            text-anchor: middle;
+            text-align: center;
+            font-size: 5px;
+        }
+
+        .legend text {
+            font-size: 4px;
+
+        }
+
+        circle {
+            fill: none;
+            stroke-width: 40px;
+        }
+
+        .camenbert path {
+            stroke-width: 2px;
+            stroke: #FFF;
+        }
+
+        .v1 circle {
+            stroke: var(--v1)
+        }
+
+        rect.v1 {
+            fill: var(--v1)
+        }
+
+        .v2 circle {
+            stroke: var(--v2)
+        }
+
+        rect.v2 {
+            fill: var(--v2)
+        }
+
+        .v3 circle {
+            stroke: var(--v3)
+        }
+
+        rect.v3 {
+            fill: var(--v3)
+        }
+
+        .v4 circle {
+            stroke: var(--v4)
+        }
+
+        rect.v4 {
+            fill: var(--v4)
+        }
+
+        .camenbert .marker {
+            stroke: #000;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 0.8px;
+        }
+    </style>
+    <!-- rayon : 20 -> perimetre: 125,66 -->
+    <g class="camenbert" transform="translate(60,58)">
+        <g class="v4">
+            <!--   700 000 =  6,19% = longueur:  7,78 -->
+            <circle r="20" stroke-dasharray="7.78 126" />
+            <path class="marker" style="d:path('M31,6 L46,9')" />
+            <text style="transform:translate(58px,2px)">
+                <tspan x="0" dy="6">Mental</tspan>
+                <tspan x="0" dy="6">700 000</tspan>
+            </text>
+        </g>
+        <g class="v1">
+            <g transform="rotate(22.3)">
+                <!-- 5 400 000 = 47,79% = longueur: 60,05 -->
+                <circle r="20" stroke-dasharray="60.05 126" />
+                <path d="m0 0h41" />
+            </g>
+            <path class="marker" style="d:path('M-15,28 L-31,42')" />
+            <text style="transform:translate(-43px,37px)">
+                <tspan x="0" dy="6">Audition</tspan>
+                <tspan x="0" dy="6">5,4 millions</tspan>
+            </text>
+        </g>
+        <g class="v3">
+            <g transform="rotate(194.34)">
+                <!-- 3 500 000 = 30,97% = longueur: 38,92 -->
+                <circle r="20" stroke-dasharray="38.92 126" />
+                <path d="m0 0h41" />
+            </g>
+            <path class="marker" style="d:path('M-15,-30 L-31,-38')" />
+            <text style="transform:translate(-34px,-53px)">
+                <tspan x="0" dy="6">Mobilité</tspan>
+                <tspan x="0" dy="6">3,5 millions </tspan>
+            </text>
+        </g>
+        <g class="v2">
+            <g transform="rotate(305.84)">
+                <!-- 1 700 000 = 15,04% = longueur: 18,91 -->
+                <circle r="20" stroke-dasharray="18.91 126" />
+                <path d="m0 0h41" />
+            </g>
+            <path class="marker" style="d:path('M28,-15 L45,-22')" />
+            <text style="transform:translate(47px,-37px)">
+                <tspan x="0" dy="6">Vision</tspan>
+                <tspan x="0" dy="6">1,7 millions</tspan>
+            </text>
+        </g>
+        <path d="m0 0h41" />
+    </g>
+    <text class="titre">
+        <tspan x="0" dy="10" font-size="8px" font-weight="bold">12 millions</tspan>
+        <tspan x="0" dy="9">de citoyens</tspan>
+        <tspan x="0" dy="9">en situation</tspan>
+        <tspan x="0" dy="9">de handicap</tspan>
+        <tspan x="0" dy="9">en France</tspan>
+        <tspan x="0" dy="9">&#160;</tspan>
+    </text>
+</svg>
